@@ -41,4 +41,13 @@ def run_tests():
 
 # Edit this code
 def compare(a, b):
+    if a[1:0:-1] > b[7:0:-1]:
+        print(a)
 
+    elif a[1: 0: -1] < b[1: 0: -1]:
+        print(b)
+
+
+    else:
+        print(a)
+        
